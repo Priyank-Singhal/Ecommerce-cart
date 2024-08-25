@@ -32,7 +32,7 @@ const TotalPrice = ({currencySymbol, cartItems}) => {
 
 
     return (
-        <div className="p-6 border rounded mx-[25%]">
+        <div className="p-6 border rounded mx-4 sm:mx-8 md:mx-24 lg:mx-48 xl:mx-[25%]">
             <h2 className="text-xl font-bold mb-4">Cart Summary</h2>
             <div className="flex justify-between mb-2">
                 <span>Subtotal:</span>
