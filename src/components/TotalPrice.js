@@ -36,7 +36,7 @@ const TotalPrice = ({currencySymbol, cartItems}) => {
             <h2 className="text-xl font-bold mb-4">Cart Summary</h2>
             <div className="flex justify-between mb-2">
                 <span>Subtotal:</span>
-                <span>{currencySymbol}{calculateSubtotal()}</span>
+                <span>{currencySymbol}{calculateSubtotal().toFixed(2)}</span>
             </div>
             {applied && (
                 <div className={`mb-2 ${validCode ? 'text-green-600' : 'text-red-600'}`}>
